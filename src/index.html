@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation APP</title>
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header">Create New User</div>
+                    <div class="card-body">
+                        <form id="userRegisterForm" novalidate>
+                            <div class="mb-3">
+                                <label for="userName" class="form-label"><i class="fas fa-user"></i> User Name</label>
+                                <input id="userName" type="text" placeholder="Enter User Name" class="form-control">
+                                <small class="invalid-feedback"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="userEmail" class="form-label"><i class="fas fa-envelope"></i> Email</label>
+                                <input id="userEmail" type="email" placeholder="Enter Email" class="form-control">
+                                <small class="invalid-feedback"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="userPhone" class="form-label"><i class="fas fa-mobile-alt"></i> Phone</label>
+                                <input id="userPhone" type="text" placeholder="Enter Phone" class="form-control">
+                                <small class="invalid-feedback"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="userPassword" class="form-label"><i class="fas fa-key"></i> Password</label>
+                                <input id="userPassword" type="password" placeholder="Enter Password" class="form-control">
+                                <small class="invalid-feedback"></small>
+                                <input id="userRePassword" type="password" placeholder="Enter Password Again" class="form-control mt-2">
+                                <small class="invalid-feedback"></small>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-danger fw-bold"><i class="fas fa-save"></i> Register</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer d-flex justify-content-end">
+                        <small class="fw-bold">created by Mert Efe Cerit</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/app.js"></script>
+</body>
+</html>
