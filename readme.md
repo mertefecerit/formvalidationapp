@@ -9,3 +9,6 @@ Usage
 - npm install
 - npm run dev
 - click localhost:1234 from terminal or browse direct
+
+App Image
+![appimage](appimg.png)
